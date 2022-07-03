@@ -37,7 +37,7 @@ function subtract(){
 }
 function multiply(){
     let args = [...arguments];
-    operationSignsFromUser = '-'
+    operationSignsFromUser = '*'
     return args.reduce(function(prev, curr){
         return prev * curr
     })
@@ -45,7 +45,7 @@ function multiply(){
 }
 function divide(){
     let args = [...arguments];
-    operationSignsFromUser = '-'
+    operationSignsFromUser = '/'
     return args.reduce(function(prev, curr){
         return prev / curr
     })
